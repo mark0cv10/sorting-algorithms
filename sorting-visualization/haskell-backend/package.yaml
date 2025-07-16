@@ -1,0 +1,17 @@
+name: sorting-backend
+version: 0.1.0.0
+dependencies:
+  - base >= 4.7 && < 5
+  - scotty
+  - wai
+  - wai-cors
+  - aeson
+  - text
+  - transformers
+  - containers
+  - mtl
+
+executables:
+  sorting-backend:
+    main: Main.hs
+    source-dirs: .

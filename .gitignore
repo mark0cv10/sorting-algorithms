@@ -20,3 +20,20 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Elm build artifacts
+elm-frontend/elm-stuff/
+dist/
+static/elm.js
+
+# Haskell Stack artifacts
+haskell-backend/.stack-work/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.tmp
+.idea/
+.vscode/
